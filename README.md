@@ -265,4 +265,5 @@ int main() {
     int b_size;
     Peak* b = task2_read("task2.bin", b_size);
     print(b, b_size);
+    delete[] b;
 }
